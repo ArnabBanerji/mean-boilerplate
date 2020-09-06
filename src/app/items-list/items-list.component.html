@@ -1,0 +1,9 @@
+<p>items-list works!</p>
+<div>
+  <button (click)="updateItems(false)">Update</button>
+</div>
+<div>
+  <div *ngFor="let item of items">
+    <div>Name: {{item.itemName}}</div>
+  </div>
+</div>
